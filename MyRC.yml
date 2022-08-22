@@ -4,8 +4,8 @@ metadata:
   name: mynginx-rc
 spec:
    replicas: 2
-   selctor:
-    app: mynginx
+   selector:
+     app: mynginx
 template:
   metadata:
     labels:
