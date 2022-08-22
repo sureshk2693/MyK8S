@@ -5,7 +5,7 @@ metadata:
   
 spec:
   containers:
-  - name: myfirstcontainer
+  - name: myfcontainer
     image: nginx
     ports:
     - containerPort: 80
